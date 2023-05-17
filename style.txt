@@ -1,0 +1,6 @@
+primary: rgb(74, 114, 255);
+primaryLight: rgba(74, 114, 255, 5%);
+dark: rgb(12, 27, 77);
+darkLight: rgba(12, 27, 77, 60%);
+darkExtraLight: rgba(12, 27, 77, 10%);
+spacing: rgb(255, 211, 159);

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+:root {
+  --primary: rgb(74, 114, 255);
+  --primaryLight: rgba(74, 114, 255, 5%);
+  --dark: rgb(12, 27, 77);
+  --darkLight: rgba(12, 27, 77, 60%);
+  --darkExtraLight: rgba(12, 27, 77, 10%);
+  --spacing: rgb(255, 211, 159);
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --fontDMSans: "DM Sans", sans-serif;
+  --fontInter: "Inter", sans-serif;
+  --fontSourceSansPro: "Source Sans Pro", sans-serif;
+}
+/*
+font-family: "DM Sans", sans-serif;
+font-family: "Inter", sans-serif;
+font-family: "Source Sans Pro", sans-serif;
+*/
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primaryLight);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.section-padding {
+  padding: 0 10%;
+}
+
+.chat-n-rechat-logo {
+  font-size: 32px;
+}
